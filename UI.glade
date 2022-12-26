@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.16.1 -->
+<interface>
+  <requires lib="gtk+" version="3.10"/>
+  <object class="GtkApplicationWindow" id="applicationwindow1">
+    <property name="can_focus">False</property>
+    <property name="margin_top">5</property>
+    <property name="margin_bottom">5</property>
+    <property name="hexpand">False</property>
+    <property name="vexpand">False</property>
+    <property name="title" translatable="yes">User Data</property>
+    <property name="window_position">center</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="name">Title</property>
+            <property name="width_request">195</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_left">41</property>
+            <property name="margin_right">83</property>
+            <property name="label" translatable="yes">Your credentials</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="weight" value="bold"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">188</property>
+            <property name="y">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry1">
+            <property name="name">EmailInput</property>
+            <property name="width_request">230</property>
+            <property name="height_request">50</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="halign">start</property>
+            <property name="valign">center</property>
+            <property name="margin_left">2</property>
+            <property name="margin_right">2</property>
+            <property name="margin_top">2</property>
+            <property name="margin_bottom">2</property>
+            <property name="secondary_icon_tooltip_text" translatable="yes">Votre nom</property>
+            <property name="placeholder_text" translatable="yes">example@gmail.com</property>
+            <property name="input_purpose">email</property>
+          </object>
+          <packing>
+            <property name="x">210</property>
+            <property name="y">121</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry2">
+            <property name="name">PasswdInput</property>
+            <property name="width_request">230</property>
+            <property name="height_request">50</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="halign">start</property>
+            <property name="valign">center</property>
+            <property name="margin_left">2</property>
+            <property name="margin_right">2</property>
+            <property name="margin_top">2</property>
+            <property name="margin_bottom">2</property>
+            <property name="max_length">8</property>
+            <property name="visibility">False</property>
+            <property name="invisible_char">●</property>
+            <property name="shadow_type">etched-out</property>
+            <property name="primary_icon_tooltip_text" translatable="yes">Mot de passe doit contenir plus de 10 caractères. </property>
+            <property name="placeholder_text" translatable="yes">Type your password</property>
+            <property name="input_purpose">password</property>
+          </object>
+          <packing>
+            <property name="x">212</property>
+            <property name="y">217</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">100</property>
+            <property name="height_request">47</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Email</property>
+            <attributes>
+              <attribute name="weight" value="bold"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">58</property>
+            <property name="y">127</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="width_request">101</property>
+            <property name="height_request">46</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Mot de passe</property>
+            <attributes>
+              <attribute name="weight" value="bold"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">68</property>
+            <property name="y">221</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Log in</property>
+            <property name="name">LoginBtn</property>
+            <property name="width_request">120</property>
+            <property name="height_request">50</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_left">2</property>
+            <property name="margin_right">2</property>
+            <property name="margin_top">2</property>
+            <property name="margin_bottom">2</property>
+          </object>
+          <packing>
+            <property name="x">197</property>
+            <property name="y">345</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">Reset</property>
+            <property name="name">ResetBtn</property>
+            <property name="width_request">120</property>
+            <property name="height_request">50</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_top">2</property>
+            <property name="margin_bottom">2</property>
+          </object>
+          <packing>
+            <property name="x">334</property>
+            <property name="y">345</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

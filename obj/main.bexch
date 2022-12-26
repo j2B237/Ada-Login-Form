@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\uidata.gpr
+20221226181530 bd08011d4862d364ea07ac1c7f31b384
+C:\GtkAda\lib\gnat\gtkada.gpr
+20221122084930 10b2e2eaa1a98e347535c54eaa3fc52e
+[BOUND OBJECT FILES]
+C:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\obj\Callback_Pkg.o
+C:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\obj\window_pkg-callback.o
+C:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\obj\window_pkg.o
+C:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\obj\
+-LC:\Users\pc\Documents\AdaCore\Tutorials\AdaLabs\UI_Data\obj\
+-LC:\GtkAda\lib\gtkada\gtkada.static\gtkada\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
